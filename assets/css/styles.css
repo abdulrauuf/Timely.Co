@@ -286,12 +286,12 @@ img {
   height: .15rem;
   border-radius: 0;
   background-color: var(--text-color);
-  opacity: 1;
+  opacity: 0;
   transition: background-color .3s, width .3s;
 }
 
 .swiper-pagination-bullet-active{
-  width: 1rem;
+  /* width: 1.5rem; */
   background-color: var(--title-color);
 }
 
@@ -321,10 +321,6 @@ img {
   .home__button-link{
     justify-self: center;
   }
-
-  .swiper-pagination-bullet{
-    opacity: 0;
-  }
 }
 
 /* For medium devices */
@@ -332,9 +328,6 @@ img {
   .home__container{
     grid-template-columns: 400px;
     justify-content: center;
-  }
-   .swiper-pagination-bullet{
-    opacity: 0;
   }
 }
 
