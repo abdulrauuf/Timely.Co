@@ -321,6 +321,10 @@ img {
   .home__button-link{
     justify-self: center;
   }
+
+  .swiper-pagination-bullet{
+    opacity: 0;
+  }
 }
 
 /* For medium devices */
@@ -328,6 +332,9 @@ img {
   .home__container{
     grid-template-columns: 400px;
     justify-content: center;
+  }
+   .swiper-pagination-bullet{
+    opacity: 0;
   }
 }
 
