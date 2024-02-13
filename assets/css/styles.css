@@ -176,6 +176,7 @@ img {
 .home__data,
 .home__content,
 .home__images,
+.home__clip,
 .home__info-content{
   display: grid;
 }
@@ -207,6 +208,7 @@ img {
 
 .home__price{
   font-size: var(--h3-font-size);
+  margin-left: 20px;
 }
 
 .home__button{
@@ -282,7 +284,7 @@ img {
 }
 
 .swiper-pagination-bullet{
-  width: 1rem;
+  width: .2rem;
   height: .15rem;
   border-radius: 0;
   background-color: var(--text-color);

@@ -51,7 +51,7 @@ const swiperWatches = new Swiper('.home__swiper', {
   },
 
     autoplay: {
-        delay: 3000,
+        delay: 3500,
         disableOnInteraction: false,
     },
 
